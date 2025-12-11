@@ -55,6 +55,8 @@ export const navigation = {
         { name: "Insektenschutzgitter", href: "/angebote/insektenschutzgitter" },
       ],
     },
+    { name: "Showroom", href: "/showroom" },
+    { name: "Occasionen", href: "/occasionen" },
     { name: "Regionen", href: "/regionen" },
     { name: "Kontakt", href: "/kontakt" },
   ],

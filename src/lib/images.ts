@@ -69,6 +69,19 @@ export const images = {
     alurex: "/images/partners/alurex.webp",
     rufalex: "/images/partners/rufalex.webp",
   },
+
+  // Showroom/CUBE images
+  showroom: {
+    main: "/images/showroom/cube-main.jpeg",
+    gallery: [
+      "/images/showroom/showroom-1.jpg",
+      "/images/showroom/showroom-2.jpg",
+      "/images/showroom/showroom-3.jpg",
+      "/images/showroom/showroom-4.jpg",
+      "/images/showroom/showroom-5.jpg",
+      "/images/showroom/showroom-6.jpg",
+    ],
+  },
 };
 
 // Helper function to get service image by slug
