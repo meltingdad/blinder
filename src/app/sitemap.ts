@@ -78,5 +78,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  return [...staticPages, ...servicePages, ...regionPages];
+  // Service + Location combination pages (for local SEO)
+  const serviceLocationPages: MetadataRoute.Sitemap = [];
+  for (const service of servicesData.services) {
+    for (const location of locationsData.locations) {
+      serviceLocationPages.push({
+        url: `${baseUrl}/${service.slug}-${location.slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly" as const,
+        priority: 0.75,
+      });
+    }
+  }
+
+  return [...staticPages, ...servicePages, ...regionPages, ...serviceLocationPages];
 }
