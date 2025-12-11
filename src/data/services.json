@@ -1,0 +1,414 @@
+{
+  "services": [
+    {
+      "id": "lamellenstoren",
+      "name": "Lamellenstoren",
+      "slug": "lamellenstoren",
+      "shortDescription": "Hochwertige Lamellenstoren für optimalen Sonnenschutz und Sichtschutz in Buelach und Umgebung",
+      "description": "Unsere massgefertigten Lamellenstoren bieten die perfekte Lösung für effektiven Sonnenschutz, flexible Lichtsteuerung und modernen Sichtschutz. Mit individuell einstellbaren Lamellen können Sie das Tageslicht präzise regulieren und schaffen eine angenehme Raumatmosphäre. Ob für Wohnräume, Büros oder Gewerbeimmobilien in Buelach und der Region Zürich – unsere Lamellenstoren vereinen Funktionalität mit elegantem Design. Dank hochwertiger Materialien, präziser Schweizer Verarbeitung und professioneller Montage garantieren wir langlebige Qualität. Unsere Lamellenstoren sind in verschiedenen Farben, Materialien und Ausführungen erhältlich und können auch motorisiert oder smart-home-fähig installiert werden. Profitieren Sie von unserer langjährigen Erfahrung und lassen Sie sich von unseren Experten beraten.",
+      "benefits": [
+        "Präzise Lichtsteuerung durch stufenlos verstellbare Lamellen",
+        "Effektiver Blend- und Sonnenschutz für angenehmes Raumklima",
+        "Optimaler Sichtschutz bei gleichzeitiger Durchsicht nach aussen",
+        "Energieeinsparung durch Reduzierung der Klimatisierungskosten",
+        "Langlebige Qualität durch hochwertige, wetterbeständige Materialien",
+        "Individuelle Anpassung an jede Fenstergrösse und Architektur",
+        "Einfache Bedienung manuell, motorisiert oder per Smart-Home-Integration",
+        "Werterhaltung und Wertsteigerung Ihrer Immobilie"
+      ],
+      "features": [
+        "Massgefertigte Anfertigung nach Ihren exakten Wünschen",
+        "Grosse Auswahl an Farben, Oberflächen und Lamellenbreiten",
+        "Aluminium-Lamellen mit hoher Stabilität und Witterungsbeständigkeit",
+        "Wahlweise manuelle oder elektrische Bedienung verfügbar",
+        "Integration in Smart-Home-Systeme möglich",
+        "Professionelle Montage durch erfahrene Fachleute",
+        "Umfassende Beratung und Aufmass vor Ort",
+        "Wartungsarme Konstruktion für langfristige Nutzung"
+      ],
+      "applications": [
+        "Wohnräume und Schlafzimmer",
+        "Büros und Gewerberäume",
+        "Fenster und Balkontüren",
+        "Wintergärten",
+        "Gewerbeobjekte und öffentliche Gebäude",
+        "Neubauten und Sanierungsprojekte"
+      ],
+      "keywords": [
+        "lamellenstoren",
+        "lamellenstoren buelach",
+        "sonnenschutz",
+        "aussenstoren",
+        "raffstoren",
+        "jalousien aussen",
+        "storen zürich",
+        "lamellen",
+        "sonnenschutz lamellen",
+        "storen montage"
+      ],
+      "faq": [
+        {
+          "question": "Was kosten Lamellenstoren für ein durchschnittliches Fenster?",
+          "answer": "Die Kosten für Lamellenstoren variieren je nach Grösse, Material, Bedienungsart und Ausstattung. Für ein Standardfenster können Sie mit Preisen ab ca. CHF 800-1200 rechnen. Wir erstellen Ihnen gerne ein individuelles, kostenloses Angebot nach einem Aufmass vor Ort."
+        },
+        {
+          "question": "Wie lange dauert die Montage von Lamellenstoren?",
+          "answer": "Die Montage von Lamellenstoren dauert in der Regel 1-3 Stunden pro Fenster, abhängig von der Grösse und den baulichen Gegebenheiten. Bei mehreren Fenstern planen wir entsprechend mehr Zeit ein. Unsere erfahrenen Monteure arbeiten sauber, zügig und professionell."
+        },
+        {
+          "question": "Können Lamellenstoren auch nachträglich motorisiert werden?",
+          "answer": "Ja, in den meisten Fällen können bestehende Lamellenstoren nachträglich mit einem Motor ausgestattet werden. Dies ist besonders praktisch für schwer erreichbare Fenster oder zur Integration in Smart-Home-Systeme. Wir beraten Sie gerne über die Möglichkeiten."
+        },
+        {
+          "question": "Wie pflege und reinige ich Lamellenstoren richtig?",
+          "answer": "Lamellenstoren sind sehr pflegeleicht. Eine regelmässige Reinigung mit einem weichen Tuch oder Schwamm und mildem Reinigungsmittel genügt. Vermeiden Sie aggressive Chemikalien und Hochdruckreiniger. Bei Bedarf bieten wir auch professionelle Reinigungsservices an."
+        },
+        {
+          "question": "Welche Garantie gibt es auf Lamellenstoren?",
+          "answer": "Wir bieten auf unsere Lamellenstoren eine Herstellergarantie von 2-5 Jahren, je nach Produkt und Hersteller. Zusätzlich garantieren wir für die fachgerechte Montage. Details zur Garantie erhalten Sie mit Ihrem individuellen Angebot."
+        },
+        {
+          "question": "Sind Lamellenstoren energieeffizient?",
+          "answer": "Ja, Lamellenstoren tragen erheblich zur Energieeffizienz bei. Im Sommer reduzieren sie die Aufheizung der Räume und senken den Kühlbedarf um bis zu 60%. Im Winter bieten geschlossene Lamellen eine zusätzliche Isolationsschicht, die Heizkosten spart."
+        }
+      ],
+      "priceRange": "Auf Anfrage - Kostenlose Offerte nach Aufmass",
+      "images": {
+        "hero": "/images/services/lamellenstoren-hero.jpg",
+        "gallery": [
+          "/images/services/lamellenstoren-1.jpg",
+          "/images/services/lamellenstoren-2.jpg",
+          "/images/services/lamellenstoren-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "rollladen",
+      "name": "Rollladen",
+      "slug": "rollladen",
+      "shortDescription": "Sichere und energieeffiziente Rollladen für Ihr Zuhause in Buelach",
+      "description": "Rollladen sind die ideale Lösung für umfassenden Schutz, Sicherheit und Energieeffizienz. Unsere hochwertigen Rollladensysteme schützen Ihre Räume zuverlässig vor Hitze, Kälte, Lärm und unerwünschten Blicken. Gleichzeitig erhöhen sie die Einbruchsicherheit Ihres Hauses erheblich. Mit modernen Rollläden können Sie Heizkosten im Winter und Klimatisierungskosten im Sommer deutlich reduzieren. Wir bieten Ihnen eine grosse Auswahl an Rollladensystemen – von klassischen Vorbau-Rollläden über Aufsatz-Rollläden bis hin zu integrierten Lösungen für Neubauten. Alle Systeme sind in verschiedenen Farben erhältlich und können manuell, über Gurtwickler, mit elektrischem Motor oder smart-home-gesteuert bedient werden. Unsere Experten beraten Sie umfassend und finden die optimale Lösung für Ihre Immobilie in Buelach und Umgebung.",
+      "benefits": [
+        "Höchste Einbruchsicherheit durch stabile Rollladenpanzer",
+        "Effektive Wärmedämmung für reduzierte Heizkosten im Winter",
+        "Optimaler Hitzeschutz und Verdunkelung im Sommer",
+        "Lärmschutz für ruhigere Wohn- und Schlafräume",
+        "Langlebige Qualität mit minimaler Wartung",
+        "Wertsteigerung Ihrer Immobilie",
+        "Flexible Bedienungsmöglichkeiten von manuell bis Smart-Home",
+        "Schutz vor Witterungseinflüssen und UV-Strahlung"
+      ],
+      "features": [
+        "Verschiedene Rollladensysteme: Vorbau, Aufsatz, integriert",
+        "Aluminium-Rollpanzer in vielen Farben und Profilen",
+        "Elektrische Motoren mit Funksteuerung oder Zeitschaltung",
+        "Smart-Home-Integration für intelligente Steuerung",
+        "Einbruchhemmende Ausführungen nach RC2/RC3 Standard",
+        "Insektenschutz-Integration möglich",
+        "Professionelle Montage und Wartungsservice",
+        "Individuelle Beratung und Planung vor Ort"
+      ],
+      "applications": [
+        "Wohnhäuser und Mehrfamilienhäuser",
+        "Schlafzimmer für optimale Verdunkelung",
+        "Erdgeschossfenster für erhöhte Sicherheit",
+        "Neubauten mit integrierten Systemen",
+        "Sanierungen mit Vorbau-Rollläden",
+        "Gewerbeimmobilien"
+      ],
+      "keywords": [
+        "rollladen",
+        "rollladen buelach",
+        "rolladen",
+        "storen",
+        "einbruchschutz",
+        "verdunkelung",
+        "sonnenschutz rollladen",
+        "elektrische rollladen",
+        "rolladen montage",
+        "rolladen nachrüsten"
+      ],
+      "faq": [
+        {
+          "question": "Was ist der Unterschied zwischen Vorbau- und Aufsatz-Rollläden?",
+          "answer": "Vorbau-Rollläden werden vor dem Fenster an der Fassade montiert und eignen sich ideal für Nachrüstungen. Aufsatz-Rollläden werden auf dem Fensterrahmen montiert und sind typisch für Neubauten. Beide Systeme bieten die gleichen Funktionen, unterscheiden sich aber in der Montage und Optik."
+        },
+        {
+          "question": "Können alte Rollläden nachträglich motorisiert werden?",
+          "answer": "Ja, in den meisten Fällen können bestehende Rollläden problemlos mit einem Elektromotor nachgerüstet werden. Dies erhöht den Komfort erheblich und ermöglicht auch die Integration in Smart-Home-Systeme. Wir prüfen vor Ort die Möglichkeiten und beraten Sie gerne."
+        },
+        {
+          "question": "Wie viel Energie kann ich mit Rollläden sparen?",
+          "answer": "Rollladen können die Wärmeverluste durch Fenster um bis zu 50% reduzieren. Im Sommer verhindern sie die Aufheizung der Räume um bis zu 75%. Dies führt zu spürbaren Einsparungen bei Heiz- und Kühlkosten – typischerweise zwischen 10-25% der Energiekosten."
+        },
+        {
+          "question": "Wie sicher sind Rollläden gegen Einbruch?",
+          "answer": "Moderne Rollläden mit einbruchhemmender Ausstattung (RC2 oder RC3) bieten einen hohen Schutz gegen Einbruchsversuche. Verstärkte Führungsschienen, stabile Rollpanzer und Hochschiebesicherungen machen es Einbrechern extrem schwer. Dies wird auch von Versicherungen anerkannt."
+        },
+        {
+          "question": "Wie laut sind elektrische Rollläden?",
+          "answer": "Moderne elektrische Rollläden mit hochwertigen Motoren arbeiten sehr leise. Die Lautstärke liegt typischerweise bei 40-50 Dezibel, vergleichbar mit einem leisen Gespräch. Besonders leise sind Motoren mit Soft-Start- und Soft-Stop-Funktion."
+        },
+        {
+          "question": "Wie lange halten Rollläden und was kostet die Wartung?",
+          "answer": "Hochwertige Rollläden haben eine Lebensdauer von 20-30 Jahren bei minimaler Wartung. Eine jährliche Sichtprüfung und gelegentliches Reinigen genügt meist. Professionelle Wartungen empfehlen wir alle 3-5 Jahre und bieten diese als Service an."
+        }
+      ],
+      "priceRange": "Auf Anfrage - Kostenlose Offerte nach Aufmass",
+      "images": {
+        "hero": "/images/services/rollladen-hero.jpg",
+        "gallery": [
+          "/images/services/rollladen-1.jpg",
+          "/images/services/rollladen-2.jpg",
+          "/images/services/rollladen-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "markisen",
+      "name": "Markisen",
+      "slug": "markisen",
+      "shortDescription": "Stilvolle Markisen für Terrasse und Balkon - Schatten nach Mass in Buelach",
+      "description": "Mit unseren hochwertigen Markisen schaffen Sie im Handumdrehen angenehmen Schatten auf Ihrer Terrasse, Ihrem Balkon oder im Garten. Ob Gelenkarmmarkisen, Kassetten-Markisen, Senkrechtmarkisen oder Pergolamarkisen – wir bieten Ihnen die perfekte Lösung für jeden Aussenbereich. Unsere Markisen schützen nicht nur vor intensiver Sonneneinstrahlung, sondern auch vor leichtem Regen und schaffen eine gemütliche Outdoor-Atmosphäre. Dank grosser Auswahl an hochwertigen, UV-beständigen und wasserabweisenden Markisenstoffen in verschiedenen Farben und Designs finden Sie garantiert die passende Markise für Ihr Zuhause in Buelach. Moderne Wind- und Sonnensensoren sorgen für automatischen Schutz, elektrische Antriebe und Smart-Home-Integration bieten höchsten Komfort. Profitieren Sie von unserer fachkundigen Beratung, präzisem Aufmass und professioneller Montage.",
+      "benefits": [
+        "Angenehmer Schatten und UV-Schutz auf Terrasse und Balkon",
+        "Erweiterung des Wohnraums nach draussen",
+        "Schutz vor Hitze und Reduzierung der Raumtemperatur",
+        "Schutz vor leichtem Regen und Witterung",
+        "Sichtschutz für mehr Privatsphäre im Aussenbereich",
+        "Wertsteigerung der Immobilie durch attraktive Optik",
+        "Energie- und Kosteneinsparung durch reduzierten Kühlbedarf",
+        "Langlebige Qualität mit UV-beständigen Markisenstoffen"
+      ],
+      "features": [
+        "Verschiedene Markisentypen: Gelenk, Kassette, Senkrecht, Pergola",
+        "Grosse Auswahl an Markisenstoffen und Designs",
+        "UV-beständige und wasserabweisende Stoffe",
+        "Elektrische Antriebe mit Funksteuerung",
+        "Wind- und Sonnensensoren für automatischen Schutz",
+        "Smart-Home-Integration möglich",
+        "LED-Beleuchtung integrierbar für Abendstunden",
+        "Professionelle Beratung, Aufmass und Montage"
+      ],
+      "applications": [
+        "Terrassen und Balkone",
+        "Gartensitzplätze",
+        "Wintergärten",
+        "Restaurants und Gastronomiebetriebe",
+        "Geschäfte und Ladenlokale",
+        "Bürogebäude und Firmensitze"
+      ],
+      "keywords": [
+        "markisen",
+        "markisen buelach",
+        "terrassenmarkisen",
+        "gelenkarmmarkise",
+        "kassetten markise",
+        "sonnenschutz terrasse",
+        "balkon markise",
+        "markisen zürich",
+        "pergola markise",
+        "senkrechtmarkise"
+      ],
+      "faq": [
+        {
+          "question": "Welche Markise ist die richtige für meine Terrasse?",
+          "answer": "Die Wahl hängt von Grösse, Lage und Nutzung ab. Gelenkarmmarkisen sind vielseitig und beliebt, Kassetten-Markisen schützen den Stoff zusätzlich im eingefahrenen Zustand. Für grosse Flächen eignen sich Pergolamarkisen. Wir beraten Sie gerne vor Ort und finden die optimale Lösung."
+        },
+        {
+          "question": "Wie gross können Markisen maximal sein?",
+          "answer": "Moderne Gelenkarmmarkisen können Breiten bis 7 Meter und Ausfall bis 4 Meter erreichen. Für grössere Flächen bieten sich Pergolamarkisen an, die noch grössere Dimensionen ermöglichen. Wir planen Ihre Markise nach den örtlichen Gegebenheiten."
+        },
+        {
+          "question": "Sind Markisen wind- und wetterfest?",
+          "answer": "Hochwertige Markisen halten Windstärken bis ca. 5 Beaufort (ca. 40 km/h) stand. Bei stärkerem Wind sollten Markisen eingefahren werden. Wind- und Sonnensensoren fahren die Markise bei Bedarf automatisch ein. Kassetten-Markisen schützen den Stoff zusätzlich vor Witterung."
+        },
+        {
+          "question": "Wie pflege ich meine Markise richtig?",
+          "answer": "Markisenstoffe sollten regelmässig von grobem Schmutz befreit werden. Bei Flecken hilft lauwarmes Wasser mit milder Seife. Lassen Sie den Stoff vor dem Einfahren immer trocknen, um Schimmel zu vermeiden. Professionelle Reinigungen bieten wir als Service an."
+        },
+        {
+          "question": "Können Markisen nachträglich motorisiert werden?",
+          "answer": "Ja, viele manuelle Markisen können nachträglich mit einem Elektromotor ausgestattet werden. Dies erhöht den Komfort erheblich und ermöglicht auch die Integration von Sensoren und Smart-Home-Steuerung. Wir prüfen die Möglichkeiten bei Ihnen vor Ort."
+        },
+        {
+          "question": "Was kosten Markisen für eine Standard-Terrasse?",
+          "answer": "Die Kosten variieren je nach Typ, Grösse und Ausstattung. Eine Gelenkarmmarkise für eine typische Terrasse (4x3 Meter) kostet ab ca. CHF 2500-4000 inklusive Montage. Kassetten-Markisen und motorisierte Ausführungen liegen höher. Wir erstellen Ihnen gerne ein kostenloses Angebot."
+        }
+      ],
+      "priceRange": "Auf Anfrage - Kostenlose Offerte nach Aufmass",
+      "images": {
+        "hero": "/images/services/markisen-hero.jpg",
+        "gallery": [
+          "/images/services/markisen-1.jpg",
+          "/images/services/markisen-2.jpg",
+          "/images/services/markisen-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "sonnenschirme",
+      "name": "Sonnenschirme",
+      "slug": "sonnenschirme",
+      "shortDescription": "Hochwertige Sonnenschirme für Garten, Terrasse und Gastronomie in Buelach",
+      "description": "Unsere hochwertigen Sonnenschirme bieten flexiblen und mobilen Sonnenschutz für jeden Aussenbereich. Ob klassischer Mittelmastschirm, eleganter Ampelschirm oder grosse Gastronomieschirme – wir führen Sonnenschirme in allen Grössen und Ausführungen. Mit robusten Gestellen aus Aluminium oder Holz, UV-beständigen und wasserabweisenden Stoffen in vielen Farben und Designs sowie stabilen Standlösungen sind unsere Sonnenschirme die perfekte Ergänzung für Garten, Terrasse, Balkon oder Gastronomiebetriebe. Moderne Sonnenschirme lassen sich bequem öffnen und schliessen, sind stufenlos neigbar und bieten optimalen Schutz vor Sonne und leichtem Regen. Für besonders windige Standorte bieten wir stabile Bodenverankerungen und schwere Schirmständer. Unsere Experten beraten Sie gerne zu den verschiedenen Modellen und finden den perfekten Sonnenschirm für Ihre Bedürfnisse in Buelach und Umgebung.",
+      "benefits": [
+        "Flexibler und mobiler Sonnenschutz für jeden Standort",
+        "UV-Schutz bis zu 98% für sichere Stunden im Freien",
+        "Grosse Auswahl an Grössen, Formen und Farben",
+        "Robuste und langlebige Materialien für jahrelange Nutzung",
+        "Einfache Bedienung durch Kurbel, Flaschenzug oder Motor",
+        "Stufenlos neigbar für optimalen Schattenwurf",
+        "Wasserabweisende Stoffe für Schutz vor leichtem Regen",
+        "Attraktive Optik für Wohn- und Gewerbebereiche"
+      ],
+      "features": [
+        "Verschiedene Schirmtypen: Mittelmast, Ampel, Gastronomie",
+        "Gestelle aus Aluminium, Edelstahl oder FSC-Holz",
+        "UV-beständige Stoffe mit hohem Lichtschutzfaktor",
+        "Grössen von 2 bis 5 Meter Durchmesser",
+        "Öffnungssysteme: Kurbel, Flaschenzug, elektrisch",
+        "Stufenlos neigbare Ausführungen",
+        "Windstabile Konstruktionen und Verankerungen",
+        "Grosse Farbauswahl und Designvarianten"
+      ],
+      "applications": [
+        "Gärten und Terrassen",
+        "Balkone und Dachterrassen",
+        "Restaurants und Cafés",
+        "Hotels und Gastgewerbe",
+        "Freibäder und Wellnessbereiche",
+        "Events und Veranstaltungen"
+      ],
+      "keywords": [
+        "sonnenschirme",
+        "sonnenschirm buelach",
+        "gartenschirm",
+        "ampelschirm",
+        "grossschirm",
+        "gastronomie sonnenschirm",
+        "terrassenschirm",
+        "sonnenschutz garten",
+        "schirm terrasse",
+        "sonnenschirm gross"
+      ],
+      "faq": [
+        {
+          "question": "Was ist der Unterschied zwischen Mittelmast- und Ampelschirm?",
+          "answer": "Mittelmastschirme haben den Mast in der Mitte und eignen sich gut für Tische. Ampelschirme (auch Freiarmschirme) haben den Mast seitlich, was die Fläche darunter frei hält – ideal für flexible Möblierung. Ampelschirme sind meist etwas teurer, bieten aber mehr Flexibilität."
+        },
+        {
+          "question": "Welche Schirmgrösse benötige ich für meine Terrasse?",
+          "answer": "Als Faustregel gilt: Der Schirmdurchmesser sollte mindestens 1 Meter grösser sein als die zu beschattende Fläche. Für einen Tisch mit 4-6 Personen reicht meist ein 3-Meter-Schirm, für grössere Gruppen empfehlen sich 3,5-4 Meter. Wir beraten Sie gerne vor Ort."
+        },
+        {
+          "question": "Wie schwer muss ein Schirmständer sein?",
+          "answer": "Das hängt von Schirmgrösse und Windexposition ab. Als Richtwert: 30-40 kg für Schirme bis 3m, 50-70 kg für 3-4m Schirme, 80-100 kg für grössere Schirme. Bei windigen Standorten empfehlen wir Bodenverankerungen oder noch schwerere Ständer."
+        },
+        {
+          "question": "Sind Sonnenschirme wasserdicht?",
+          "answer": "Die meisten hochwertigen Sonnenschirme sind wasserabweisend und halten leichten Regen ab. Bei starkem Regen sollten Schirme jedoch geschlossen werden, da sich sonst Wasser sammelt und das Gestell beschädigen kann. Spezielle wasserdichte Ausführungen sind auf Anfrage erhältlich."
+        },
+        {
+          "question": "Wie pflege ich meinen Sonnenschirm richtig?",
+          "answer": "Lassen Sie den Schirm vor dem Schliessen trocknen, um Schimmel zu vermeiden. Reinigen Sie den Stoff mit lauwarmem Wasser und milder Seife. Lagern Sie den Schirm im Winter trocken. Schutzhüllen schützen vor Verschmutzung. Professionelle Imprägnierung empfehlen wir alle 2-3 Jahre."
+        },
+        {
+          "question": "Was kosten hochwertige Sonnenschirme?",
+          "answer": "Hochwertige Mittelmastschirme starten ab ca. CHF 300-600 für 3 Meter Durchmesser. Ampelschirme liegen bei CHF 600-1500 je nach Grösse und Qualität. Grosse Gastronomie-Schirme kosten ab CHF 1500. Wir bieten Ihnen gerne eine individuelle Beratung und attraktive Preise."
+        }
+      ],
+      "priceRange": "Ab CHF 300 - Je nach Grösse und Ausführung",
+      "images": {
+        "hero": "/images/services/sonnenschirme-hero.jpg",
+        "gallery": [
+          "/images/services/sonnenschirme-1.jpg",
+          "/images/services/sonnenschirme-2.jpg",
+          "/images/services/sonnenschirme-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "insektenschutzgitter",
+      "name": "Insektenschutzgitter",
+      "slug": "insektenschutzgitter",
+      "shortDescription": "Massgeschneiderte Insektenschutzgitter für Fenster und Türen in Buelach",
+      "description": "Mit unseren massgefertigten Insektenschutzgittern geniessen Sie frische Luft ohne lästige Insekten. Ob für Fenster, Türen, Dachfenster oder Lichtschächte – wir bieten Ihnen die passende Lösung für jeden Bereich. Unsere Insektenschutzsysteme sind praktisch unsichtbar, langlebig und ermöglichen ungestörtes Lüften bei Tag und Nacht. Von einfachen Spannrahmen über komfortable Dreh- und Schiebetüren bis hin zu Plissees und Rollos – wir führen alle gängigen Systeme in höchster Qualität. Die feinmaschigen Gewebe halten zuverlässig Mücken, Fliegen, Wespen und andere Insekten fern, während Licht und Luft ungehindert durchströmen können. Spezielle Pollenschutzgewebe helfen zudem Allergikern. Alle Systeme werden millimetergenau nach Aufmass gefertigt und professionell montiert. Unsere Insektenschutzgitter sind in verschiedenen Farben erhältlich und fügen sich dezent in jede Fassade ein. Geniessen Sie unbeschwerte Sommernächte in Buelach ohne surrende Plagegeister.",
+      "benefits": [
+        "Zuverlässiger Schutz vor Mücken, Fliegen und Insekten",
+        "Ungestörtes Lüften bei Tag und Nacht",
+        "Kein Einsatz von chemischen Insektenschutzmitteln nötig",
+        "Pollenschutzgewebe für Allergiker verfügbar",
+        "Nahezu unsichtbar und lichtdurchlässig",
+        "Langlebige Qualität und einfache Pflege",
+        "Massgenau gefertigt für perfekte Passform",
+        "Verschiedene Systeme für jeden Einsatzbereich"
+      ],
+      "features": [
+        "Verschiedene Systeme: Spannrahmen, Dreh, Schiebe, Plissee, Rollo",
+        "Feinmaschige Gewebe gegen alle Insektenarten",
+        "Spezial-Pollenschutzgewebe für Allergiker",
+        "Stabile Aluminium-Rahmen in verschiedenen Farben",
+        "Kratzfeste und reissfeste Gewebe",
+        "Einfache Montage ohne Bohren möglich",
+        "Für Fenster, Türen, Dachfenster und Lichtschächte",
+        "Professionelle Massfertigung und Montage"
+      ],
+      "applications": [
+        "Fenster in Wohn- und Schlafräumen",
+        "Balkon- und Terrassentüren",
+        "Dachfenster und Dachgeschosse",
+        "Kellerfenster und Lichtschächte",
+        "Gewerberäume und Büros",
+        "Gastronomie und Hotellerie"
+      ],
+      "keywords": [
+        "insektenschutzgitter",
+        "insektenschutz buelach",
+        "fliegengitter",
+        "mueckenschutz",
+        "insektenschutz fenster",
+        "insektenschutz tuer",
+        "pollenschutz",
+        "fliegengitter tuer",
+        "insektenschutz rollo",
+        "moskitonetz"
+      ],
+      "faq": [
+        {
+          "question": "Welches Insektenschutzsystem ist das richtige für mich?",
+          "answer": "Für Fenster eignen sich Spannrahmen oder Rollos, für Türen Dreh- oder Schiebetüren. Dachfenster benötigen spezielle Plissees. Bei häufiger Nutzung sind Dreh- und Schiebetüren komfortabler als Spannrahmen. Wir beraten Sie gerne vor Ort über die optimale Lösung."
+        },
+        {
+          "question": "Kann ich Insektenschutzgitter selbst montieren?",
+          "answer": "Einfache Spannrahmen können mit etwas Geschick selbst montiert werden. Für massgeschneiderte Lösungen, Dreh- und Schiebetüren sowie Plissees empfehlen wir die professionelle Montage. Wir übernehmen das Aufmass, die Fertigung und die fachgerechte Montage für Sie."
+        },
+        {
+          "question": "Helfen Insektenschutzgitter auch gegen Pollen?",
+          "answer": "Ja, spezielle Pollenschutzgewebe filtern bis zu 90% der Pollen aus der Luft und bieten Allergikern deutliche Erleichterung. Diese Gewebe sind etwas engmaschiger als Standard-Insektenschutzgewebe, aber immer noch licht- und luftdurchlässig."
+        },
+        {
+          "question": "Wie pflege ich Insektenschutzgitter?",
+          "answer": "Insektenschutzgitter sollten regelmässig mit einer weichen Bürste oder dem Staubsauger (niedrige Stufe) gereinigt werden. Bei stärkeren Verschmutzungen hilft lauwarmes Wasser mit mildem Reinigungsmittel. Vermeiden Sie aggressive Chemikalien und Hochdruckreiniger."
+        },
+        {
+          "question": "Wie lange halten Insektenschutzgitter?",
+          "answer": "Hochwertige Insektenschutzgitter haben bei guter Pflege eine Lebensdauer von 10-15 Jahren. Die Gewebe sind UV-beständig und reissfest. Sollte ein Gewebe beschädigt werden, kann es in den meisten Fällen einzeln ausgetauscht werden, ohne das gesamte System erneuern zu müssen."
+        },
+        {
+          "question": "Was kosten Insektenschutzgitter?",
+          "answer": "Einfache Spannrahmen für Standardfenster kosten ab ca. CHF 80-150 pro Stück. Drehtüren für Balkontüren liegen bei CHF 300-600, Schiebetüren bei CHF 400-800. Plissees und Rollos kosten je nach Grösse CHF 200-500. Wir erstellen Ihnen gerne ein individuelles Angebot."
+        }
+      ],
+      "priceRange": "Ab CHF 80 - Je nach System und Grösse",
+      "images": {
+        "hero": "/images/services/insektenschutzgitter-hero.jpg",
+        "gallery": [
+          "/images/services/insektenschutzgitter-1.jpg",
+          "/images/services/insektenschutzgitter-2.jpg",
+          "/images/services/insektenschutzgitter-3.jpg"
+        ]
+      }
+    }
+  ]
+}

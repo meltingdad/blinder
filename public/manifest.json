@@ -1,0 +1,21 @@
+{
+  "name": "Swiss Quality Storen GmbH",
+  "short_name": "Swiss Quality Storen",
+  "description": "Ihr Spezialist für Lamellenstoren, Rollladen, Markisen und Sonnenschutz in Bülach und der Region Zürich.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#9AC434",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
