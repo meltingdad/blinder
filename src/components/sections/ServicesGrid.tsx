@@ -121,6 +121,7 @@ export default function ServicesGrid({
               href={`/angebote/${service.slug}`}
               icon={serviceIcons[service.id]}
               features={service.benefits.slice(0, 3)}
+              imageUrl={service.images?.hero}
               variant={variant}
             />
           ))}

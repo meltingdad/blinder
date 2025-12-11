@@ -74,11 +74,13 @@
       ],
       "priceRange": "Auf Anfrage - Kostenlose Offerte nach Aufmass",
       "images": {
-        "hero": "/images/services/lamellenstoren-hero.jpg",
+        "hero": "/images/services/lamellenstoren-main.webp",
         "gallery": [
-          "/images/services/lamellenstoren-1.jpg",
-          "/images/services/lamellenstoren-2.jpg",
-          "/images/services/lamellenstoren-3.jpg"
+          "/images/services/lamellenstoren-as800.jpg",
+          "/images/services/lamellenstoren-as900.jpg",
+          "/images/services/lamellenstoren-as831.jpg",
+          "/images/services/lamellenstoren-av750.jpg",
+          "/images/services/lamellenstoren-av940-740.jpg"
         ]
       }
     },
@@ -156,11 +158,13 @@
       ],
       "priceRange": "Auf Anfrage - Kostenlose Offerte nach Aufmass",
       "images": {
-        "hero": "/images/services/rollladen-hero.jpg",
+        "hero": "/images/services/rollladen-main.jpg",
         "gallery": [
-          "/images/services/rollladen-1.jpg",
-          "/images/services/rollladen-2.jpg",
-          "/images/services/rollladen-3.jpg"
+          "/images/services/rollladen-classic30.jpg",
+          "/images/services/rollladen-ec37.jpg",
+          "/images/services/rollladen-maxi55.jpg",
+          "/images/services/rollladen-maxisafe55.jpg",
+          "/images/services/rollladen-rufalux37.jpg"
         ]
       }
     },
@@ -238,11 +242,11 @@
       ],
       "priceRange": "Auf Anfrage - Kostenlose Offerte nach Aufmass",
       "images": {
-        "hero": "/images/services/markisen-hero.jpg",
+        "hero": "/images/services/markisen-main.jpg",
         "gallery": [
-          "/images/services/markisen-1.jpg",
-          "/images/services/markisen-2.jpg",
-          "/images/services/markisen-3.jpg"
+          "/images/services/markisen-main.jpg",
+          "/images/services/service-02.jpg",
+          "/images/services/service-03.jpg"
         ]
       }
     },
@@ -320,11 +324,11 @@
       ],
       "priceRange": "Ab CHF 300 - Je nach Grösse und Ausführung",
       "images": {
-        "hero": "/images/services/sonnenschirme-hero.jpg",
+        "hero": "/images/services/sonnenschirme-main.jpg",
         "gallery": [
-          "/images/services/sonnenschirme-1.jpg",
-          "/images/services/sonnenschirme-2.jpg",
-          "/images/services/sonnenschirme-3.jpg"
+          "/images/services/sonnenschirme-main.jpg",
+          "/images/services/service-03.jpg",
+          "/images/services/service-04.jpg"
         ]
       }
     },
@@ -402,11 +406,11 @@
       ],
       "priceRange": "Ab CHF 80 - Je nach System und Grösse",
       "images": {
-        "hero": "/images/services/insektenschutzgitter-hero.jpg",
+        "hero": "/images/services/insektenschutzgitter-main.jpg",
         "gallery": [
-          "/images/services/insektenschutzgitter-1.jpg",
-          "/images/services/insektenschutzgitter-2.jpg",
-          "/images/services/insektenschutzgitter-3.jpg"
+          "/images/services/insektenschutzgitter-main.jpg",
+          "/images/services/service-04.jpg",
+          "/images/services/service-02.jpg"
         ]
       }
     }

@@ -3,7 +3,9 @@ import ServicesGrid from "@/components/sections/ServicesGrid";
 import RegionsGrid from "@/components/sections/RegionsGrid";
 import CTASection from "@/components/sections/CTASection";
 import Features from "@/components/sections/Features";
+import Partners from "@/components/sections/Partners";
 import { companyInfo } from "@/lib/config";
+import Image from "next/image";
 
 const features = [
   {
@@ -101,6 +103,7 @@ export default function Home() {
         ctaLink="/kontakt"
         secondaryCtaText="Unsere Angebote"
         secondaryCtaLink="/angebote"
+        backgroundImage="/images/hero-main-2.webp"
         showTrustBadges
       />
 
@@ -182,28 +185,13 @@ export default function Home() {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-dark via-dark-light to-primary/20 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <div className="w-24 h-24 mx-auto mb-6 bg-primary rounded-2xl flex items-center justify-center">
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="w-12 h-12 text-dark"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                      >
-                        <rect x="3" y="3" width="18" height="18" rx="2" />
-                        <line x1="3" y1="7" x2="21" y2="7" />
-                        <line x1="3" y1="11" x2="21" y2="11" />
-                        <line x1="3" y1="15" x2="21" y2="15" />
-                        <line x1="3" y1="19" x2="21" y2="19" />
-                      </svg>
-                    </div>
-                    <p className="text-2xl font-bold mb-2">Swiss Quality</p>
-                    <p className="text-primary text-lg">Storen GmbH</p>
-                  </div>
-                </div>
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src="/images/team/ruan-working.jpg"
+                  alt="Swiss Quality Storen Monteur bei der Arbeit"
+                  fill
+                  className="object-cover"
+                />
               </div>
               {/* Decorative badge */}
               <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-xl p-4">
@@ -221,6 +209,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Partners Section */}
+      <Partners />
 
       {/* Final CTA */}
       <CTASection

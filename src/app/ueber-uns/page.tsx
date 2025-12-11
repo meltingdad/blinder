@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Hero from "@/components/sections/Hero";
 import CTASection from "@/components/sections/CTASection";
 import { companyInfo } from "@/lib/config";
+import { images } from "@/lib/images";
 
 export const metadata: Metadata = {
   title: "Über uns - Swiss Quality Storen GmbH",
@@ -136,29 +138,23 @@ export default function UeberUnsPage() {
               </div>
             </div>
             <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl bg-gradient-to-br from-dark via-dark-light to-primary/20 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-white p-8">
-                    <div className="w-20 h-20 mx-auto mb-6 bg-primary rounded-2xl flex items-center justify-center">
-                      <svg
-                        viewBox="0 0 24 24"
-                        className="w-10 h-10 text-dark"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                      >
-                        <rect x="3" y="3" width="18" height="18" rx="2" />
-                        <line x1="3" y1="7" x2="21" y2="7" />
-                        <line x1="3" y1="11" x2="21" y2="11" />
-                        <line x1="3" y1="15" x2="21" y2="15" />
-                        <line x1="3" y1="19" x2="21" y2="19" />
-                      </svg>
-                    </div>
-                    <p className="text-xl font-bold mb-2">Swiss Quality</p>
-                    <p className="text-primary">Storen GmbH</p>
-                    <p className="mt-4 text-white/70">
-                      {companyInfo.address.city}, Schweiz
-                    </p>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src={images.services.lamellenstoren.main}
+                  alt="Swiss Quality Storen - Lamellenstoren Installation"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              {/* Location Badge */}
+              <div className="absolute -bottom-4 -right-4 bg-white rounded-xl shadow-xl p-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-7 bg-swiss-red flex items-center justify-center">
+                    <span className="text-white font-bold">+</span>
+                  </div>
+                  <div>
+                    <p className="font-semibold text-dark">{companyInfo.address.city}</p>
+                    <p className="text-xs text-gray-500">Schweiz</p>
                   </div>
                 </div>
               </div>
@@ -195,6 +191,81 @@ export default function UeberUnsPage() {
                 <p className="text-gray-600 text-center">{value.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="section-padding">
+        <div className="container-custom">
+          <div className="text-center mb-12">
+            <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4">
+              Unser Team
+            </span>
+            <h2 className="heading-md text-dark mb-4">
+              Die Menschen hinter Swiss Quality Storen
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Unser erfahrenes Team steht Ihnen mit Fachwissen und Engagement zur Seite.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="group text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src={images.team.ruan}
+                  alt="Ruan - Swiss Quality Storen"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-dark mb-1">Ruan</h3>
+              <p className="text-primary font-medium mb-2">Montage & Service</p>
+              <p className="text-gray-600 text-sm">Experte für fachgerechte Montage</p>
+            </div>
+
+            <div className="group text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src={images.team.geza}
+                  alt="Geza - Swiss Quality Storen"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-dark mb-1">Geza</h3>
+              <p className="text-primary font-medium mb-2">Beratung & Verkauf</p>
+              <p className="text-gray-600 text-sm">Ihr Ansprechpartner für Beratung</p>
+            </div>
+
+            <div className="group text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src={images.team.reto}
+                  alt="Reto - Swiss Quality Storen"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-dark mb-1">Reto</h3>
+              <p className="text-primary font-medium mb-2">Technik & Planung</p>
+              <p className="text-gray-600 text-sm">Spezialist für technische Lösungen</p>
+            </div>
+
+            <div className="group text-center">
+              <div className="relative w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src={images.team.lari}
+                  alt="Lari - Swiss Quality Storen"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-dark mb-1">Lari</h3>
+              <p className="text-primary font-medium mb-2">Administration</p>
+              <p className="text-gray-600 text-sm">Organisation und Koordination</p>
+            </div>
           </div>
         </div>
       </section>
