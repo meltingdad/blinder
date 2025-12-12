@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #2A2A2A;
-  --primary: #9AC434;
-  --primary-dark: #7BA628;
-  --primary-light: #B5D95F;
-  --dark: #2A2A2A;
-  --dark-light: #404040;
+  --background: #FEFCF8;
+  --foreground: #1A1A1A;
+  --primary: #8CB91D;
+  --primary-dark: #6B9216;
+  --primary-light: #A8D435;
+  --accent: #E53935;
+  --accent-dark: #C62828;
+  --dark: #1A1A1A;
+  --dark-light: #2D2D2D;
+  --dark-lighter: #454545;
+  --warm-white: #FEFCF8;
+  --cream: #F5F3EF;
 }
 
 * {
@@ -27,14 +32,15 @@ html {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Cabin', system-ui, sans-serif;
+  font-family: 'DM Sans', system-ui, sans-serif;
   line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: 600;
-  line-height: 1.2;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 @layer base {

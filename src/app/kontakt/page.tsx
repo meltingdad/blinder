@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import Hero from "@/components/sections/Hero";
 import ContactForm from "@/components/forms/ContactForm";
 import { companyInfo } from "@/lib/config";
+import {
+  generateLocalBusinessSchema,
+  generateContactPageSchema,
+  combineSchemas,
+} from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Kontakt - Kostenlose Offerte anfordern",
@@ -10,8 +15,19 @@ export const metadata: Metadata = {
 };
 
 export default function KontaktPage() {
+  const structuredData = combineSchemas(
+    generateLocalBusinessSchema(),
+    generateContactPageSchema()
+  );
+
   return (
     <>
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       <Hero
         variant="page"
         title="Kontaktieren Sie uns"
@@ -267,35 +283,69 @@ export default function KontaktPage() {
         </div>
       </section>
 
-      {/* Map Section - Placeholder */}
-      <section className="bg-gray-100">
-        <div className="h-96 flex items-center justify-center">
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto mb-4 bg-primary/20 rounded-full flex items-center justify-center">
-              <svg
-                className="w-8 h-8 text-primary"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                />
-              </svg>
+      {/* Map Section */}
+      <section className="bg-cream">
+        <div className="relative">
+          {/* Map Container */}
+          <div className="h-[450px] w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.8!2d8.5387!3d47.5194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47906d01c39f8e8f%3A0x0!2sSchlosserstrasse%204%2C%208180%20B%C3%BClach!5e0!3m2!1sde!2sch!4v1"
+              width="100%"
+              height="100%"
+              style={{ border: 0, filter: "grayscale(20%)" }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Swiss Quality Storen GmbH Standort"
+              className="w-full h-full"
+            />
+          </div>
+
+          {/* Floating Address Card */}
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 md:left-8 md:translate-x-0 bg-white rounded-xl shadow-xl p-6 max-w-sm">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                <svg
+                  className="w-6 h-6 text-dark"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-bold text-dark mb-1">{companyInfo.name}</h3>
+                <p className="text-dark-lighter text-sm">
+                  {companyInfo.address.street}<br />
+                  {companyInfo.address.plz} {companyInfo.address.city}
+                </p>
+                <a
+                  href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+                    `${companyInfo.address.street}, ${companyInfo.address.plz} ${companyInfo.address.city}`
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary-dark font-medium text-sm transition-colors"
+                >
+                  Route planen
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              </div>
             </div>
-            <p className="text-gray-600">
-              {companyInfo.address.street}, {companyInfo.address.plz}{" "}
-              {companyInfo.address.city}
-            </p>
           </div>
         </div>
       </section>

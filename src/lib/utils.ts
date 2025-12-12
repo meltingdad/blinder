@@ -37,10 +37,12 @@ export function formatPhoneNumber(phone: string): string {
 }
 
 export function generateMetaTitle(title: string, location?: string): string {
+  // Note: Layout template already adds "| Swiss Quality Storen GmbH Bülach"
+  // So we just return the page-specific part
   if (location) {
-    return `${title} in ${location} | Swiss Quality Storen GmbH`;
+    return `${title} in ${location}`;
   }
-  return `${title} | Swiss Quality Storen GmbH Bülach`;
+  return title;
 }
 
 export function generateMetaDescription(

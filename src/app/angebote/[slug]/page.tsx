@@ -7,6 +7,7 @@ import CTASection from "@/components/sections/CTASection";
 import ContactForm from "@/components/forms/ContactForm";
 import servicesData from "@/data/services.json";
 import { generateMetaTitle, generateMetaDescription } from "@/lib/utils";
+import { companyInfo } from "@/lib/config";
 
 interface ServicePageProps {
   params: Promise<{
@@ -155,7 +156,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     Unsere Experten beraten Sie gerne zu {service.name}.
                   </p>
                   <a
-                    href="tel:+41625589818"
+                    href={companyInfo.contact.phoneLink}
                     className="flex items-center gap-3 p-4 bg-white/10 rounded-lg hover:bg-white/20 transition-colors mb-4"
                   >
                     <svg
@@ -171,7 +172,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span className="font-semibold">062 558 98 18</span>
+                    <span className="font-semibold">{companyInfo.contact.phone}</span>
                   </a>
                   <Link
                     href="#kontakt"

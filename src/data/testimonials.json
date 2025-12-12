@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Hans Müller",
+      "location": "Zürich",
+      "rating": 5,
+      "text": "Ausgezeichnete Beratung und professionelle Montage unserer neuen Lamellenstoren. Das Team war pünktlich, sauber und die Qualität der Arbeit ist erstklassig. Sehr zu empfehlen!",
+      "service": "Lamellenstoren",
+      "date": "2024-11"
+    },
+    {
+      "id": 2,
+      "name": "Sandra Keller",
+      "location": "Winterthur",
+      "rating": 5,
+      "text": "Wir haben uns für Markisen von Swiss Quality Storen entschieden und sind begeistert. Die Beratung war kompetent, der Preis fair und die Installation einwandfrei. Unser Balkon ist jetzt perfekt beschattet.",
+      "service": "Markisen",
+      "date": "2024-10"
+    },
+    {
+      "id": 3,
+      "name": "Peter Brunner",
+      "location": "Kloten",
+      "rating": 5,
+      "text": "Nach langer Suche endlich den richtigen Partner gefunden. Die Rollladen sind hochwertig, die Bedienung einfach und der Service war von Anfang bis Ende top. Vielen Dank!",
+      "service": "Rollladen",
+      "date": "2024-09"
+    },
+    {
+      "id": 4,
+      "name": "Maria Weber",
+      "location": "Dübendorf",
+      "rating": 5,
+      "text": "Insektenschutzgitter für alle Fenster - perfekt verarbeitet und kaum sichtbar. Endlich können wir im Sommer die Fenster offen lassen. Super Qualität zu fairen Preisen.",
+      "service": "Insektenschutzgitter",
+      "date": "2024-08"
+    },
+    {
+      "id": 5,
+      "name": "Thomas Huber",
+      "location": "Baden",
+      "rating": 5,
+      "text": "Schnelle Offerte, faire Preise und eine erstklassige Montage. Die neuen Sonnenschirme sehen toll aus und sind absolut stabil. Das Team hat sehr sorgfältig gearbeitet.",
+      "service": "Sonnenschirme",
+      "date": "2024-07"
+    },
+    {
+      "id": 6,
+      "name": "Christine Meier",
+      "location": "Bülach",
+      "rating": 5,
+      "text": "Als Nachbarn des Showrooms konnten wir uns alles in Ruhe ansehen. Die Beratung war ehrlich und ohne Druck. Die Lamellenstoren übertreffen unsere Erwartungen. Klare Empfehlung!",
+      "service": "Lamellenstoren",
+      "date": "2024-06"
+    }
+  ]
+}

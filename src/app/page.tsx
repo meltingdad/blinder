@@ -4,7 +4,13 @@ import RegionsGrid from "@/components/sections/RegionsGrid";
 import CTASection from "@/components/sections/CTASection";
 import Features from "@/components/sections/Features";
 import Partners from "@/components/sections/Partners";
+import Testimonials from "@/components/sections/Testimonials";
 import { companyInfo } from "@/lib/config";
+import {
+  generateLocalBusinessSchema,
+  generateWebPageSchema,
+  combineSchemas,
+} from "@/lib/structuredData";
 import Image from "next/image";
 
 const features = [
@@ -91,8 +97,23 @@ const features = [
 ];
 
 export default function Home() {
+  const structuredData = combineSchemas(
+    generateLocalBusinessSchema(),
+    generateWebPageSchema({
+      name: "Swiss Quality Storen GmbH - Ihr Storen Spezialist in Bülach",
+      description: "Hochwertige Lamellenstoren, Rollladen, Markisen und Sonnenschutz in Bülach und der Region Zürich. Schweizer Qualität, professionelle Beratung und Montage.",
+      url: "/",
+    })
+  );
+
   return (
     <>
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       {/* Hero Section */}
       <Hero
         variant="home"
@@ -209,6 +230,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       {/* Partners Section */}
       <Partners />
