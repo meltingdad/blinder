@@ -1,51 +1,9 @@
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
 import { companyInfo, navigation } from "@/lib/config";
 import { cn } from "@/lib/utils";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const [email, setEmail] = useState("");
-  const [isSubscribed, setIsSubscribed] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-  const [honeypot, setHoneypot] = useState("");
-
-  const handleNewsletterSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-
-    // Honeypot check (spam prevention)
-    if (honeypot) return;
-
-    setIsLoading(true);
-    setError(null);
-
-    try {
-      const response = await fetch("/api/newsletter", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, honeypot }),
-      });
-
-      const data = await response.json();
-
-      if (!response.ok) {
-        throw new Error(data.error || "Ein Fehler ist aufgetreten");
-      }
-
-      setIsSubscribed(true);
-      setEmail("");
-
-      // Store in localStorage to prevent duplicate submissions
-      localStorage.setItem("newsletter-subscribed", "true");
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Ein Fehler ist aufgetreten");
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   return (
     <footer className="bg-dark text-white relative overflow-hidden">
@@ -64,87 +22,8 @@ export default function Footer() {
         </svg>
       </div>
 
-      {/* Newsletter Section */}
-      <div className="bg-dark-light pt-24 pb-12">
-        <div className="container-custom">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 bg-gradient-to-r from-primary/20 to-primary/10 rounded-2xl p-8 lg:p-10">
-            <div className="text-center lg:text-left">
-              <h3 className="text-2xl font-bold text-white mb-2">
-                Bleiben Sie informiert
-              </h3>
-              <p className="text-white/70">
-                Erhalten Sie Tipps und Angebote rund um Sonnenschutz direkt in Ihr Postfach.
-              </p>
-            </div>
-
-            {isSubscribed ? (
-              <div className="flex items-center gap-3 text-primary">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span className="font-semibold">Vielen Dank für Ihre Anmeldung!</span>
-              </div>
-            ) : (
-              <form onSubmit={handleNewsletterSubmit} className="flex flex-col gap-2 w-full lg:w-auto">
-                <div className="flex flex-col sm:flex-row gap-3">
-                  {/* Honeypot field (hidden from users, visible to bots) */}
-                  <input
-                    type="text"
-                    name="website"
-                    value={honeypot}
-                    onChange={(e) => setHoneypot(e.target.value)}
-                    className="hidden"
-                    tabIndex={-1}
-                    autoComplete="off"
-                  />
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Ihre E-Mail-Adresse"
-                    required
-                    disabled={isLoading}
-                    className={cn(
-                      "px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder:text-white/50",
-                      "focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent",
-                      "w-full sm:w-72",
-                      "disabled:opacity-50 disabled:cursor-not-allowed"
-                    )}
-                  />
-                  <button
-                    type="submit"
-                    disabled={isLoading}
-                    className={cn(
-                      "px-6 py-3 bg-primary text-dark font-semibold rounded-lg transition-all whitespace-nowrap",
-                      "hover:bg-primary-light",
-                      "disabled:opacity-50 disabled:cursor-not-allowed",
-                      "inline-flex items-center justify-center gap-2"
-                    )}
-                  >
-                    {isLoading ? (
-                      <>
-                        <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                        </svg>
-                        Wird gesendet...
-                      </>
-                    ) : (
-                      "Anmelden"
-                    )}
-                  </button>
-                </div>
-                {error && (
-                  <p className="text-accent text-sm">{error}</p>
-                )}
-              </form>
-            )}
-          </div>
-        </div>
-      </div>
-
       {/* Main Footer */}
-      <div className="container-custom py-16">
+      <div className="container-custom pt-24 pb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
           {/* Company Info - Larger section */}
           <div className="lg:col-span-4">
